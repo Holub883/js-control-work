@@ -9,7 +9,7 @@ function createList() {
     let list = document.getElementById('list');
     list.innerHTML = '';
     pairs.forEach((pair, index) => {
-        const li = document.createElement('li');
+        let li = document.createElement('li');
         li.innerHTML = `
               <label>
                 <input type="checkbox" data-index="${index}"> ${pair.name} = ${pair.value}
