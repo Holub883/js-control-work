@@ -1,0 +1,23 @@
+.post-details {
+    background: #e9e8ec;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.comment {
+    width: 20%;
+    background: #99af8e;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.comment h4 {
+    margin: 0 0 5px;
+    font-size: 14px;
+}

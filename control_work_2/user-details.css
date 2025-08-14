@@ -1,0 +1,39 @@
+.user-details {
+    background: #e9e8ec;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.btn-posts {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    background: #4eb51a;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.post {
+    width: 18%;
+    background: #c7c7e3;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.post a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 8px;
+    background: #4eb51a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
